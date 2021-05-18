@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote  name="flashokiller"
+                fetch="https://github.com/flashokiller" />
+
+        <project path="device/xiaomi/pine" name="device_xiaomi_pine" remote="flashokiller" revision="dot11" clone-depth="1" />
+        <project path="kernel/xiaomi/pine" name="kernel_xiaomi_pine" remote="flashokiller" revision="dot11" clone-depth="1" />
+        <project path="vendor/xiaomi/pine" name="vendor_xiaomi_pine" remote="flashokiller" revision="dot11" clone-depth="1" />
+
+</manifest>
