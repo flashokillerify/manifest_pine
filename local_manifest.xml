@@ -4,8 +4,12 @@
         <remote  name="flashokiller"
                 fetch="https://github.com/flashokiller" />
 
+         <remote name="sushi"
+                 fetch="https://github.com/AkiraNoSushi" />
+
+
         <project path="device/xiaomi/pine" name="device_xiaomi_pine" remote="flashokiller" revision="nezuko" clone-depth="1" />
-        <project path="kernel/xiaomi/pine" name="lilac_kernel_sdm439" remote="flashokiller" revision="main" clone-depth="1" />
+        <project path="kernel/xiaomi/pine" name="kernel_cherry_sdm439" remote="sushi" revision="main" clone-depth="1" />
         <project path="vendor/xiaomi/pine" name="vendor_xiaomi_pine" remote="flashokiller" revision="dot11" clone-depth="1" />
 
 </manifest>
