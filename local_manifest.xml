@@ -12,4 +12,4 @@
         <project path="kernel/xiaomi/pine" name="kernel_xiaomi_pine" remote="flashokiller" revision="dot11" clone-depth="1" />
         <project path="vendor/xiaomi/pine" name="proprietary_vendor_xiaomi_pine" remote="sushi" revision="lineage-18.1" clone-depth="1" />
 
-</manifest/>
+</manifest>
