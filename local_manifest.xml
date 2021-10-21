@@ -3,14 +3,26 @@
 
         <remote  name="flashokiller"
                 fetch="https://github.com/flashokillerify" />
-
-         <remote name="sushi"
+       <remote  name="panah"
+               fetch="https://github.com/ArrowOS" />
+       <remote  name="Chuck439"
+              fetch="https://github.com/Chuck439" />
+         <remote name="Chuck"
                  fetch="https://github.com/ChuckProjekt" />
 
 
         <project path="device/xiaomi/pine" name="device_xiaomi_pine" remote="flashokiller" revision="a12" clone-depth="1" />
         <project path="kernel/xiaomi/pine" name="kernel_xiaomi_pine" remote="flashokiller" revision="a12" clone-depth="1" />
         <project path="vendor/xiaomi/pine" name="vendor_xiaomi_pine" remote="flashokiller" revision="a12" clone-depth="1" />
-        <project path"device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="sushi" revision="12.0" clone-depth="1" />
-        <project path"vendor/xiaomi/sdm439-common" name="vendor_xiaomi_sdm439-common" remote="sushi" revision="12.0" clone-depth="1" />
+        <project path"device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="Chuck" revision="12.0" clone-depth="1" />
+        <project path"vendor/xiaomi/sdm439-common" name="vendor_xiaomi_sdm439-common" remote="Chuck" revision="12.0" clone-depth="1" />
+       <remove-project name="android_vendor_arrow"  />
+       <project path="vendor/arrow"  name="android_vendor_arrow"  remote="Chuck439"  revision="arrow-12.0"  />
+       <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2"/>
+       <project path="hardware/qcom-caf/msm8996/audio"  name="hardware_qcom_audio"  remote="Chuck"  revision="8.6.2" />
+       <project path="hardware/qcom-caf/msm8996/media"  name="hardware_qcom_media"  remote="Chuck"  revision="8.6.2" />
+       <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="panah" revision="arrow-12.0" />
+       <project path="device/qcom/sepolicy-legacy-um"  name="android_device_qcom_sepolicy-legacy-um"  remote="Chuck"  revision="twelve"  />
+
+
 </manifest>
